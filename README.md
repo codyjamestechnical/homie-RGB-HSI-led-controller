@@ -25,13 +25,21 @@ JSON:
 Topic: **/light/JSON
 
 {
+
 	"state": "ON",
+	
 	"brightness": 255,
+	
 	"color": {
+	
 		"h": 360,
+		
 		"s": 1
+		
 	},
+	
 	"transition": 5 <- this is in seconds
+	
 }
 
 MQTT Topics:
