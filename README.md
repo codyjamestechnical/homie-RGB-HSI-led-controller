@@ -24,23 +24,23 @@ JSON:
 
 Topic: **/light/JSON
 
+```json
 {
+"state": "ON",
 
-	"state": "ON",
+"brightness": 255,
+
+"color": {
+
+	"h": 360,
 	
-	"brightness": 255,
+	"s": 1
 	
-	"color": {
-	
-		"h": 360,
-		
-		"s": 1
-		
-	},
-	
-	"transition": 5 <- this is in seconds
-	
+},
+
+"transition": 5 <- this is in seconds
 }
+```
 
 MQTT Topics:
 
