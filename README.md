@@ -1,4 +1,4 @@
-# homie-RGB-HSI-led-controller
+# Homie RGB LED controller sketch (HSI)
 
 ## Required Libraries
 [Homie For ESP8266](http://marvinroger.github.io/homie-esp8266/)
