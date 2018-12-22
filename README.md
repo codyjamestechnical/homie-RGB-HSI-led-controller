@@ -20,7 +20,9 @@ To send a state to any topic just add "/set" to the end.
 So, to get JSON state "**/light/JSON", and to set that topic "**/light/JSON/set"
 
 JSON:
+
 Topic: **/light/JSON
+
 {
 	"state": "ON",
 	"brightness": 255,
@@ -32,8 +34,13 @@ Topic: **/light/JSON
 }
 
 MQTT Topics:
+
 State: **/light/on ( true/false )
+
 Brightness: **/light/brightness ( 0-255 )
+
 Brightness Percent: **/light/brightnesspct ( 0-100 )
+
 Hue/Saturation: **/light/hs ( h,s )
+
 Hue/Saturation/Brightness Percent: **/light/hsb ( h,s,b(0-100) )
