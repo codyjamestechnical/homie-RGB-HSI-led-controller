@@ -6,7 +6,7 @@
 ArduinJSON Library
 
 ## What is this for
-It is for use with RGB LEDs, allowing you to send standard MQTT, or MQTT JSON commands. It works with Home Assistant natively, and will work with HomeKit using MQTTTHING for HomeBridge. It uses HSI colors, so you can adjust brightness with minimal color change. And it supports transition( in seconds) when sending commands in JSON
+It is for use with RGB LEDs, allowing you to send standard MQTT, or MQTT JSON commands. It works with Home Assistant natively, and will work with HomeKit using [MQTTTHING](https://github.com/arachnetech/homebridge-mqttthing#readme) for [HomeBridge](https://homebridge.io). It uses HSI colors, so you can adjust brightness with minimal color change. And it supports transition( in seconds) when sending commands in JSON
 
 ## How To Use
 - Set LED pins, and preferences in "config.h"
@@ -14,7 +14,7 @@ It is for use with RGB LEDs, allowing you to send standard MQTT, or MQTT JSON co
 - Open the [Homie Config](http://marvinroger.github.io/homie-esp8266/configurators/v2/) site in your browser
 - Boot up, look for (and connect) to a WiFi network that looks something like lh-#########
 - It will take a few minutes for the config site to see the device, but when it does, enter your WiFi/MQTT settings
-- Now the device is on the network, all that's left is to setup HomeBridge, and Home Assistant
+- Now the device is on the network, all that's left is to setup [HomeBridge](https://homebridge.io), and [Home Assistant](https://home-assistant.io)
 
 ## Commands
 To send a state to any topic just add "/set" to the end.
