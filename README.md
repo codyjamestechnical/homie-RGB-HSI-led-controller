@@ -30,7 +30,7 @@ Topic: **/light/JSON
     "brightness": 255,
     "color": {
         "h": 360,
-        "s": 1
+        "s": 100
     },
     "transition": 5
 }
@@ -44,6 +44,6 @@ Brightness: **/light/brightness ( 0-255 )
 
 Brightness Percent: **/light/brightnesspct ( 0-100 )
 
-Hue/Saturation: **/light/hs ( h,s )
+Hue/Saturation: **/light/hs ( hue (0-360),sat (0-100) )
 
-Hue/Saturation/Brightness Percent: **/light/hsb ( h,s,b(0-100) )
+Hue/Saturation/Brightness Percent: **/light/hsb ( h (0-360),s (0-100),b (0-100) )
